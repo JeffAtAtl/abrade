@@ -7,7 +7,7 @@
   identity)
 
 (defmethod browser :firefox [_]
-  (WebClient. (BrowserVersion/FIREFOX_17)))
+  (WebClient. (BrowserVersion/FIREFOX_45)))
 
 (defmethod browser :chrome [_]
   (WebClient. (BrowserVersion/CHROME)))
